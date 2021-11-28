@@ -45,7 +45,7 @@
     <!-- <h4 class="mb-0 text-caption lila">
       {{ p.technologies }}
     </h4> -->
-    <div v-if="p.description" class="mt-4">
+    <div v-if="p.description" class="mt-2">
       {{ p.description }}
     </div>
   </b-card>

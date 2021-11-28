@@ -1,20 +1,15 @@
 <template>
   <b-container class="bv-example-row content my-3">
     <!-- loop through each post -->
-    <ProjectList :projects="projects" />
+    <ProjectList />
   </b-container>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-      projects: []
-    }
-  },
-
   async fetch () {
-    this.projects = await this.$content('projects').sortBy('id', 'desc').fetch()
+    const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
+    this.$store.commit('projects/add', projects)
   },
 
   head () {

@@ -1,5 +1,5 @@
 ---
-id: 8
+id: 9
 title: home2share - IoT bei Serviced Apartments
 subtitle: Full Stack Entwicklung einer Webplattform in Vue.js & Django
 description: 'Smarthost ist eine Webplattform der home2share GmbH zur Automatisierung des kompletten Prozesses von Buchung bis Check-Out und darüber hinaus.'

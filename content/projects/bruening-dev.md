@@ -1,16 +1,14 @@
 ---
-id: 1
+id: 5
 title: bruening.dev
 subtitle: nuxt.js Website mit Git basiertem CMS
 description: ''
-duration: 10
-company: Julian Brüning
-field: Softwareentwicklung
+duration: 0.25
 language: de
 role: Full Stack Entwickler
 technologies: Nuxt.js; Vue;
 featues: CMS;
-tags: 
+git: https://github.com/julian-bruening/bruening-dev-nuxt
 ---
 
-Im Rahmen meiner Arbeit bei der Hamm Market Solutions entwickelte ich eine Vertriebsapp. Hierzu wurden Eigenschaften von einem Kundenmanagementsystem mit einem Webshop kombiniert und an das interne Warenwirtschaftssystem angebunden. Eine wichtige Anforderung war die Offlinefähigkeit. Ergebnis ist die gesteigerte Zuverlässigkeit, sowie die Senkung des Zeitaufwandes.
+Die Webseite auf der Sie sich gerade befinden :). Schauen Sie sich gerne das (Github Repo)[https://github.com/bruening-dev/bruening-dev-nuxt] dazu an.

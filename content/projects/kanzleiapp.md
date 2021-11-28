@@ -1,5 +1,5 @@
 ---
-id: 6
+id: 7
 title: Kanzlei App Aktuell - Die App für Steuerberater
 subtitle: Cross-Plattform App Entwicklung mit Angular & Ionic
 description: ''
@@ -11,6 +11,7 @@ role: Frontend Entwickler
 technologies: Ionic 5; Angular 8; TypeScript; Capacitor; Fastlane; iOS; Android;
 featues: Dokumentenscanner; Artikel; Zeitschriften; Videobewerbung;
 tags: Flux; REST;
+link: https://www.wiadok.de/digital/
 ---
 
 Eines der zentralen Softwareprodukte der WIADOK KG musste aufgrund veralteter Standards erneuert werden. Die Umsetzung wurde in Angular mit dem Ionic Framework vorgenommen. Die App ist modular und individualisierbar geschrieben, sodass mit einer Codebasis der komplette Kundenstamm abgedeckt werden kann. Durch eine CI/CD Pipeline werden automatisierte Aktualisierung und Bereitstellungen von Kunden-Apps ermöglicht ohne technisches Know-How zu besitzen. Insgesamt wurden 28 Module mit unterschiedlichsten Funktionen entwickelt.

@@ -11,6 +11,7 @@ role: Full Stack Entwickler;
 technologies: Vue.js; Firebase; 
 featues: Live; Kollaboration; Dozentenansicht
 tags: 
+link: https://beer-game.io/
 ---
 
 Das Beer Game wurde vom MIT entwickelt, Koordinationsherausforderungen in einer Supply Chain zu veranschaulichen. Hierzu wurde eine Webanwendung geschrieben, welche diese Abläufe virtualisiert und ein ortsunabhängiges Spielen ermöglicht und ergänzt.

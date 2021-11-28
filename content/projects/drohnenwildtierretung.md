@@ -1,0 +1,16 @@
+---
+id: 4
+title: Drohnen-Wildtierrettung (iOS, DJI)
+subtitle: iOS App Entwicklung für eine Drohne
+description: ''
+duration: 6
+company: Hochschule Osnabrück
+field: Forschung
+language: de
+role: Full Stack Entwickler
+technologies: Swift; DJI SDK;
+featues: Live Standortverfolgung;
+tags: 
+---
+
+Die Wildtierretung und der Ernteschutz sind ein wichtiges Thema in der Landwirtschaft. Deshalb habe ich im Rahmen meiner Bachelorarbeit einen App-Prototypen für die Wildtierretung durch Drohnen entwickelt. Dieser ermöglicht es Landwirten Felder zu definieren und diese automatisch als Wärmebild zu kartographieren, um Wildtiere zu entdecken. Zu einem etwaigen Fund kann dann mittels GPS-Koordinaten navigiert werden.

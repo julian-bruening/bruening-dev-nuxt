@@ -36,7 +36,8 @@
     <b-badge
       v-for="tech in p.technologies.split(/; /g)"
       :key="tech"
-      class="mr-1 bg-lila opacity-75 cursor-pointer"
+      class="mr-1 opacity-75 cursor-pointer"
+      :class="{'bg-lila': filter.technologies.length == 0 ? true : filter.technologies.includes(tech)}"
       pill
     >
       {{ tech.replace(/;/g, '') }}
@@ -56,6 +57,10 @@ export default {
     p: {
       type: Object,
       default: () => { return {} }
+    },
+    filter: {
+      type: Object,
+      default: () => { return { technologies: [] } }
     }
   }
 }

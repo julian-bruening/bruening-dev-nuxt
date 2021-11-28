@@ -15,6 +15,18 @@
       <span v-if="p.field">
         | <font-awesome-icon :icon="['fas', 'cog']" /> {{ p.field }}
       </span>
+      <span v-if="p.link">
+        | <a :href="p.link" target="_blank">
+          <font-awesome-icon :icon="['fas', 'link']" />
+          Live
+        </a>
+      </span>
+      <span v-if="p.git">
+        | <a :href="p.git" target="_blank">
+          <font-awesome-icon :icon="['fas', 'code']" />
+          Code
+        </a>
+      </span>
     </p>
     <nuxt-link class="post-container" :to="`/projects/${p.slug}`">
       <h3 class="mb-2 mt-0">

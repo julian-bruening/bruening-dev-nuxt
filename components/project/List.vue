@@ -6,7 +6,6 @@
     />
     <ProjectFilter
       class="mt-3"
-      @change="handleChangeFilter"
     />
     <div class="mt-2">
       Ergebnisse: {{ projects.length }}
@@ -15,6 +14,7 @@
       v-for="p in projects"
       :key="p.slug"
       :p="p"
+      :filter="filter"
       class="py-2"
     />
     <div v-if="projects.length == 0" class="mt-5 mb-5 pb-5">
@@ -39,11 +39,9 @@ export default {
   computed: {
     projects () {
       return this.$store.state.projects.filteredList
-    }
-  },
-  methods: {
-    handleChangeFilter: (filter) => {
-      console.log(filter)
+    },
+    filter () {
+      return this.$store.state.projects.filter
     }
   }
 }

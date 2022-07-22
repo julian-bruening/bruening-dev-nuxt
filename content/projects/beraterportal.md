@@ -9,7 +9,7 @@ field: Agentur für Steuerberater
 language: de
 role: Full Stack Entwickler
 technologies: Vue.js 3; Quasar Framework; NestJS; Node.js; TypeScript; Kubernetes; DDD;
-featues: State Mashine; Formular Engine; Prozessautomatisierung;
+features: State Mashine; Formular Engine; Prozessautomatisierung;
 tags: Adobe XD; Git; Domain Driven Design;
 ---
 

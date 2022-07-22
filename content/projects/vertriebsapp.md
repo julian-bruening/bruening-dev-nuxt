@@ -8,8 +8,8 @@ company: Hamm Market Solutions GmbH & Co. KG
 field: Schuhgroßhandel
 language: de
 role: Full Stack Entwickler
-technologies: Swift; Firebase; Electron;
-featues: Backend GUI; Offline; CMS; CRM;
+technologies: Swift; Firebase; Electron; iOS;
+features: Backend GUI; Offline; CMS; CRM;
 tags: 
 ---
 

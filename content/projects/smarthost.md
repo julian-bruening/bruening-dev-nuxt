@@ -9,7 +9,7 @@ field: Serviced Apartments
 language: de
 role: Full Stack Entwickler
 technologies: Vue.js 3; TypeScript; Kubernetes; Django; 
-featues: Vollständige Prozessautomatisierung; Datenauswertung; Bündeln von Informationen; Handlungsempfehlungen
+features: Vollständige Prozessautomatisierung; Datenauswertung; Bündeln von Informationen; Handlungsempfehlungen
 tags: Docker; Gitlab CI;
 ---
 

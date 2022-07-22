@@ -9,7 +9,7 @@ field: Agentur für Steuerberater
 language: de
 role: Frontend Entwickler
 technologies: Ionic 5; Angular 8; TypeScript; Capacitor; Fastlane; iOS; Android;
-featues: Dokumentenscanner; Artikel; Zeitschriften; Videobewerbung;
+features: Dokumentenscanner; Artikel; Zeitschriften; Videobewerbung;
 tags: Flux; REST;
 link: https://www.wiadok.de/digital/
 ---

@@ -7,7 +7,7 @@ duration: 0.25
 language: de
 role: Full Stack Entwickler
 technologies: Nuxt.js; Vue;
-featues: CMS;
+features: CMS;
 git: https://github.com/julian-bruening/bruening-dev-nuxt
 ---
 

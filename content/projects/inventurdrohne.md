@@ -9,7 +9,7 @@ field: Forschung
 language: de
 role: Full Stack Entwickler
 technologies: Swift; DJI SDK;
-featues: Live Standortverfolgung; Automatisierte Inventur
+features: Live Standortverfolgung; Automatisierte Inventur
 tags: 
 ---
 

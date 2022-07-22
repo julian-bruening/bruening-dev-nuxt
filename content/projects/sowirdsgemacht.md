@@ -8,7 +8,7 @@ company: »So wird’s gemacht«-Online
 language: de
 role: Full Stack Entwickler;
 technologies: Vue.js; Loopback; Linux; 
-featues: Content Management System
+features: Content Management System
 tags: Online Viewer; Blogsystem; Individueller Editor
 link: https://sowirdsgemacht.com
 ---

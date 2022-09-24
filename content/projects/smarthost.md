@@ -25,7 +25,7 @@ Smarthost soll hier als Plattform die Möglichkeit bieten Kunden-Buchungen autom
 - Arbeitsaufwand wird reduziert
 - Risikoärmere Abläufe durch Failsaves und weniger möglichen Fehlerquellen
 
-Erster Schritt und Pilotprojekt war hier die Automatisierung der eigenen Serviced Apartments. Die Entwicklung wurde hier in verschiedene Phase entlang der Fachbereiche aufgeteilt:
+Erster Schritt und Pilotprojekt war hier die Automatisierung der eigenen Serviced Apartments. Die Entwicklung wurde hier in verschiedene Phasen entlang der Fachbereiche aufgeteilt:
 - Reservierungsprozess
 - Smartlock Steuerung
 - Anbindung von Sensoren für erweiterte Metriken

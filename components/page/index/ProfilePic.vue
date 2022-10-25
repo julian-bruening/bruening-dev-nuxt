@@ -1,5 +1,5 @@
 <template>
-  <img class="profilePic" src="/profile_pic.png" alt="Image Title">
+  <img class="profilePic" src="/profile_pic.webp" alt="Image Title" width="120px" height="120px">
 </template>
 
 <style>

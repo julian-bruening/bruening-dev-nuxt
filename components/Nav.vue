@@ -3,7 +3,7 @@
     <div class="nav-content">
       <b-navbar id="mainNav" toggleable="md">
         <b-navbar-brand href="/" class="logo">
-          <img src="/logo.svg" alt="julian brüning">
+          <img src="/logo.svg" alt="julian brüning" width="137.5px">
         </b-navbar-brand>
         <!-- <b-navbar-toggle target="nav_collapse">
           <i class="material-icons">menu</i>

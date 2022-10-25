@@ -47,7 +47,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .section-title {
   margin-bottom: -18px;
 }

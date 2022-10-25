@@ -92,7 +92,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 a {
   font-size: 14px;
 }

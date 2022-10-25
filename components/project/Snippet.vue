@@ -66,7 +66,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .card {
   border-left: none;
   border-top: none;
@@ -83,14 +83,5 @@ export default {
 .post-container {
   display: block;
   color: unset;
-
-  // padding: 1.3em;
-  // border: 1px solid #eee;
-  // border-radius: 0.4em;
-
-  // h3 {
-  //   margin-top: 0;
-  //   margin-bottom: 0.5em;
-  // }
 }
 </style>

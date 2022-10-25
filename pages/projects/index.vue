@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .post-container + .post-container {
   margin-top: 0.5em;
 }

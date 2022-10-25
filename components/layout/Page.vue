@@ -64,14 +64,13 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 
 main {
   margin: 1em var(--side-padding);
-
-  .date {
-    font-size: 0.9em;
-    color: #777;
-  }
+}
+main .date {
+  font-size: 0.9em;
+  color: #777;
 }
 </style>

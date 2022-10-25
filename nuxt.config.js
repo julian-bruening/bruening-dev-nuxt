@@ -114,5 +114,7 @@ export default {
 
     //   return files.map(file => file.path === '/index' ? '/' : file.path)
     // }
-  }
+  },
+  // To stop annyoing prompts (particular in pipeline)
+  telemetry: false
 }

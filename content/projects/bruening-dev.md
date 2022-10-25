@@ -11,4 +11,4 @@ features: CMS;
 git: https://github.com/julian-bruening/bruening-dev-nuxt
 ---
 
-Die Webseite auf der Sie sich gerade befinden :). Schauen Sie sich gerne das (Github Repo)[https://github.com/bruening-dev/bruening-dev-nuxt] dazu an.
+Die Webseite auf der Sie sich gerade befinden :). Schauen Sie sich gerne das [Github Repo](https://github.com/bruening-dev/bruening-dev-nuxt) dazu an.

@@ -6,7 +6,7 @@
     <p class="text-caption mt-3 mb-2">
       <span v-if="p.duration">
         <font-awesome-icon :icon="['fas', 'clock']" />
-        {{ p.duration }} Monate
+        <ElementDurationString :duration="p.duration" />
       </span>
       <span v-if="p.company">
         | <font-awesome-icon :icon="['fa', 'map-marker']" />

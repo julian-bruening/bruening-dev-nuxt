@@ -3,10 +3,7 @@
     <p class="text-caption mb-0">
       <span v-if="p.duration">
         <font-awesome-icon :icon="['fas', 'clock']" />
-        <span v-if="p.duration > 1">{{ p.duration }} Monate</span>
-        <span v-else-if="p.duration == 1">1 Monat</span>
-        <span v-else-if="p.duration > 0.25">{{ p.duration*4 }} Wochen</span>
-        <span v-else-if="p.duration == 0.25">1 Woche</span>
+        <ElementDurationString :duration="p.duration" />
       </span>
       <span v-if="p.company">
         | <font-awesome-icon :icon="['fa', 'map-marker']" />

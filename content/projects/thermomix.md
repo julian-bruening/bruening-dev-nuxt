@@ -2,7 +2,7 @@
 id: 10
 title: Thermomix | New Consultant Onboarding
 subtitle: Full Stack Entwicklung einer Webplattform in Nuxt & Node.js
-description: 'Verinfachter Onboarding Prozess mit Anreizen für potenzielle Kundenberater.'
+description: 'Vereinfachter Onboarding Prozess mit Anreizen für potenzielle Kundenberater.'
 duration: 12
 company: AMAN Media GmbH
 field: Agentur für Digitale Lösungen

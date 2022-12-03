@@ -14,6 +14,9 @@
           <b-nav-item to="/projects">
             Projekte
           </b-nav-item>
+          <b-nav-item to="/cv" class="ml-2">
+            CV
+          </b-nav-item>
           <!-- <b-nav-item
             href="https://www.dropbox.com/s/n3hoidfz3pciww2/CV-EN-Julian_Bruening.pdf?dl=0"
             target="_blank"

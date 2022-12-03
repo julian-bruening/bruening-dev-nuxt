@@ -14,4 +14,4 @@ tags: Git; Figma;
 ---
 
 Zusammen mit einem Team aus 11 Personen wurde eine Webanwendung für Thermomix Nordamerika entwickelt, die das Onboarden von Beratern automatisiert ermöglicht. Durch einen geführten Registrierungsprozess kann der Benutzer innerhalb weniger Minuten seine Daten eingeben, die notwendigen Dokumente ausfüllen und einen Thermomix bestellen. Dieser kann innerhalb von 90 Tagen vom Berater verdient werden, indem er 4 Thermomixe verkauft. Am Ende der 90 Tage wird die eventuell ausstehende Summe automatisiert eingezogen.
-Damit dies so funktionieren kann, wurden mehrere Systeme integriert und verbunden. Der Kern besteht aus einem Vue.js Frontend und einem Lambda Backend. Integriert wurden unter anderem die Systeme WooCommerce, Helloworks, Sendgrid, Logic Apps, Stripe, Paybright und Bread. 
+Damit dies so funktionieren kann, wurden mehrere Systeme integriert und verbunden. Der Kern besteht aus einem Vue.js Frontend und einem Lambda Backend. Integriert wurden unter anderem die Systeme WooCommerce, Helloworks, Sendgrid, Logic Apps, Stripe, Paybright und Bread.

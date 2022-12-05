@@ -1,7 +1,7 @@
 <template>
   <div class="nav-container">
     <div class="nav-content">
-      <b-navbar id="mainNav" toggleable="md">
+      <b-navbar id="mainNav">
         <b-navbar-brand href="/" class="logo">
           <img src="/logo.svg" alt="julian brüning" width="137.5px" height="20px">
         </b-navbar-brand>

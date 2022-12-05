@@ -2,8 +2,9 @@
   <div>
     <b-container class="bv-example-row content my-3">
       <h2>Download as</h2>
-      <b-button @click="downloadDoc()">Docx</b-button>
-      <b-button @click="testGenerate()">PDF</b-button>
+      <b-button @click="downloadDoc()">
+        Docx
+      </b-button>
     </b-container>
   </div>
 </template>
@@ -11,8 +12,10 @@
 import { mapMutations } from 'vuex'
 export default {
   async fetch () {
-    const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
-    this.$store.commit('projects/add', projects)
+    if (this.projects.length === 0) {
+      const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
+      this.$store.commit('projects/add', projects)
+    }
   },
   head () {
     return {
@@ -20,28 +23,17 @@ export default {
       title: 'Full Stack Entwickler - Julian Brüning'
     }
   },
+  computed: {
+    projects () {
+      return this.$store.state.projects.filteredList
+    }
+  },
   methods: {
     ...mapMutations({
-      generate: 'cv/generate',
-      testGenerate: 'cv/testGenerate'
+      generate: 'cv/generate'
     }),
     downloadDoc () {
-      this.generate({
-        projects: [
-          {
-            isCurrent: true,
-            summary: 'Full-stack developer working with Angular and Java. Working for the iShares platform',
-            title: 'Associate Software Developer',
-            startDate: {
-              month: 11,
-              year: 2017
-            },
-            company: {
-              name: 'BlackRock'
-            }
-          }
-        ]
-      })
+      this.generate(this.projects)
     }
   }
 }

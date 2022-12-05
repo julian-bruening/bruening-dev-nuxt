@@ -8,8 +8,10 @@
 <script>
 export default {
   async fetch () {
-    const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
-    this.$store.commit('projects/add', projects)
+    if (this.$store.getters['projects/list'].length === 0) {
+      const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
+      this.$store.commit('projects/add', projects)
+    }
   },
 
   head () {

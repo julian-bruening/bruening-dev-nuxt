@@ -5,16 +5,16 @@
       v-for="tech in technologies"
       :key="tech"
       class="mr-1 opacity-75 cursor-pointer"
-      :class="{'bg-lila': filter.technologies.includes(tech)}"
+      :variant="filter.technologies.includes(tech) ? 'primary' : 'secondary'"
       pill
       @click="toggleTechFilter(tech)"
     >
       {{ tech.replace(/;/g, '') }}
     </b-badge>
-    <b-link v-if="!showAll" class="inline-block" @click="showAll = true">
+    <b-link v-if="show > 0" class="inline-block" @click="show -= 1">
       mehr...
     </b-link>
-    <b-link v-else class="inline-block" @click="showAll = false">
+    <b-link v-else-if="show < 2" class="inline-block" @click="show = 2">
       weniger...
     </b-link>
   </div>
@@ -41,7 +41,7 @@ export default {
   // },
   data () {
     return {
-      showAll: false
+      show: 2
     }
   },
   computed: {
@@ -67,11 +67,9 @@ export default {
           return 0
         }
       })
-      if (this.showAll) {
-        return keys
-      } else {
-        return keys.splice(0, 10)
-      }
+      return keys.filter((k) => {
+        return technologies[k] > this.show
+      })
     },
     filter () {
       return this.$store.state.projects.filter
@@ -95,5 +93,9 @@ export default {
 <style scoped>
 a {
   font-size: 14px;
+}
+.badge-secondary {
+  background-color: #e9ecef;
+  color: #212529;
 }
 </style>

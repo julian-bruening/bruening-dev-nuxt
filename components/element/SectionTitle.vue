@@ -1,6 +1,6 @@
 <template>
   <div class="section-title">
-    <h1 class="section-title-title">
+    <h1 class="section-title-title mb-0">
       {{ title }}
     </h1>
     <h2 class="section-title-subtitle">

@@ -10,7 +10,9 @@
           <PageIndexContact />
         </b-col>
       </b-row>
-      <ProjectList />
+      <b-col lg="9">
+        <ProjectList />
+      </b-col>
     </b-container>
   </div>
 </template>
@@ -18,7 +20,7 @@
 import { mapMutations } from 'vuex'
 export default {
   async fetch () {
-    const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
+    const projects = await this.$content('projects').fetch()
     this.$store.commit('projects/add', projects)
   },
   head () {

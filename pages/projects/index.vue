@@ -9,7 +9,7 @@
 export default {
   async fetch () {
     if (this.$store.getters['projects/list'].length === 0) {
-      const projects = await this.$content('projects').sortBy('id', 'desc').fetch()
+      const projects = await this.$content('projects').fetch()
       this.$store.commit('projects/add', projects)
     }
   },

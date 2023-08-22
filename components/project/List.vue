@@ -7,16 +7,17 @@
     <ProjectFilter
       class="mt-3"
     />
-    <div class="mt-2">
+    <div class="mt-1 mb-4">
       Ergebnisse: {{ projects.length }}
     </div>
-    <ProjectSnippet
-      v-for="p in projects"
-      :key="p.slug"
-      :p="p"
-      :filter="filter"
-      class="py-2"
-    />
+    <div v-for="p in projects" :key="p.slug">
+      <ProjectSnippet
+        :p="p"
+        :filter="filter"
+        class="py-4"
+      />
+      <hr>
+    </div>
     <div v-if="projects.length == 0" class="mt-5 mb-5 pb-5">
       Keine Ergebnisse gefunden :(
     </div>
